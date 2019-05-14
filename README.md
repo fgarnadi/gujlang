@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+# gujlang
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,6 +68,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
-# gujlang
->>>>>>> 1f078687908d809da3a747849890e7936e5eb3a9

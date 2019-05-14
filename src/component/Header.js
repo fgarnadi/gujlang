@@ -2,26 +2,23 @@ import React from 'react';
 
 function Header() {
   return (
-    <nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/img/logo.png" alt="logo"></img>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Stories <span class="sr-only">(current)</span></a>
+    <nav className="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+      <div className="container">
+        <div className="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="index.html">Stories <span className="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="post.html">Post <span class="sr-only">(current)</span></a>
+            <li className="nav-item">
+              <a className="nav-link" href="post.html">Post <span className="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="author.html">Author <span class="sr-only">(current)</span></a>
+            <li className="nav-item">
+              <a className="nav-link" href="author.html">Author <span className="sr-only">(current)</span></a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search"></input>
-            <span class="search-icon"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg></span>
+          <form className="form-inline my-2 my-lg-0">
+            <input className="form-control mr-sm-2" type="text" placeholder="Search"></input>
+            <span className="search-icon"><svg className="svgIcon-use" width="25" height="25" viewBox="0 0 25 25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg></span>
           </form>
         </div>
       </div>
